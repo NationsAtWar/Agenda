@@ -1,0 +1,13 @@
+name: MotD
+main: com.googlemail.rpaliwoda.motd.MotD
+version: 0.1
+author: Feldherren
+
+permissions:
+  motd.admins:
+    description: Allows user to change the MotD.
+    default: op
+
+commands:
+  motd:
+    description: Supercommand for MotD.
